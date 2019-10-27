@@ -1,3 +1,9 @@
+
+/**
+ * @question :- function to find maximum length sub-array with sum S present
+ * @complexity :- O(n)
+ * @link :- https://www.techiedelight.com/find-maximum-length-sub-array-having-given-sum/
+ */
 const main = () =>{
     let arr = [ 5, 6, -5, 5, 3, 5, 3, -2, 0];
     let sum =8;
