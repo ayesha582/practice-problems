@@ -47,7 +47,11 @@ const deepClone = (obj) =>{
     }else if(obj instanceof Object){
         res = {};
         Object.keys(obj).forEach(k=>{
-            res[k] = deepClone(obj[k]);
+            if(obj[k]===obj){
+                res[k] = res;
+            }else{
+                res[k] = deepClone(obj[k]);
+            }
         });
     }else{
         return obj;
@@ -64,7 +68,11 @@ let obj3 = {
     c:{q:1,w:2}
 }
 
+obj3['d'] = obj3;
+
 let obj4 = Object.deepClone(obj3);
+
+
 
 console.log(obj4);
 
@@ -81,3 +89,5 @@ obj3.c.q=8;
 
 console.log(obj3);
 console.log(obj4);
+
+
