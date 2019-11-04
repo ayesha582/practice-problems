@@ -32,7 +32,7 @@ console.log(fn());
 function* test(i) {
   yield i;
   yield i + 10;
-};
+}
 
 
 const ab = test(10);
