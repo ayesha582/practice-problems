@@ -19,6 +19,8 @@
  *
  * cors, cookie vs session, CDNs, JSON, HashMaps and how conflicts are resolved
  *
+ * http2
+ *
  * function timeoutPromise(promise, timeout)
  *
  * if timeout expires first then reject with error
