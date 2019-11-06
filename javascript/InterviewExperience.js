@@ -36,6 +36,9 @@
  *
  * difference b/w - promises callbacks
  * difference b/w - promises async/await
+ * setTimeout and setInterval
+ * process.nextTick and setImmediate
+ * Indexes - how are they helpful and what are they - structure?
  * unique index, primary index
  * composite index
  * migrate a table with billion records, app must not crash, no of request is uniform i.e. peak
@@ -74,3 +77,14 @@ timeoutPromise(promise, timeout).then((value) => {
 }).catch((err) => {
   console.log(err);
 });
+
+
+/**
+ *
+ * Wikipedia - 7GB read it and save it to csv file and save that in DB
+ * Design your own JWT TOKEN Service
+ * Increase throughput, request per seconds
+ * socket.io, rabbitMQ, database
+ * daily routine or work like ??
+ *
+ * **** */
