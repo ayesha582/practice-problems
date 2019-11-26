@@ -16,7 +16,6 @@ const def = abc.bind(obj);
 
 console.log(def());
 
-
 console.log(abc.call(obj, '22323', '23232211'));
 
 console.log(abc.apply(obj, [12, 122222278]));

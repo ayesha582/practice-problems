@@ -4,6 +4,7 @@
 // Array.prototype.filter = function () {}
 // Train-Platform Question - Algo
 // SQL queries
+// KMP
 
 
 /***
@@ -84,7 +85,7 @@ timeoutPromise(promise, timeout).then((value) => {
  * Wikipedia - 7GB read it and save it to csv file and save that in DB
  * Design your own JWT TOKEN Service
  * Increase throughput, request per seconds
- * socket.io, rabbitMQ, database
+ * socket.io, rabbitMQ, databases
  * daily routine or work like ??
  *
  * **** */

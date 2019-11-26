@@ -65,3 +65,45 @@ const partialApply = (fn, factor) => {
 const add10 = partialApply(add, 10);
 
 console.log(add10(5));
+
+
+/** **************  Closures  ************ */
+
+
+let i = 1;
+
+for(;i<5; i++) {
+    setTimeout(() => console.log('inside 1 ', i), (5 - i) * 100);
+}
+
+console.log(i);
+
+
+for(let i = 1; i<5; i++) {
+    setTimeout(() => console.log('inside 2 ', i), (5 - i) * 100);
+}
+
+
+console.log(i);
+
+
+
+// 5 ​​​​​at ​​​i​​​ ​quokka.js:7:0​
+
+// 5 ​​​​​at ​​​i​​​ ​quokka.js:15:0​
+
+// inside 1  5 ​​​​​
+
+// inside 2  4 ​​​​​
+
+// inside 1  5 ​​​​​
+
+// inside 2  3 ​​​​​
+
+// inside 1  5 ​​​​​
+
+// inside 2  2 ​​​​​
+
+// inside 1  5 ​​​​​
+
+// inside 2  1 ​​​​​
