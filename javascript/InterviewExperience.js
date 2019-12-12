@@ -89,3 +89,38 @@ timeoutPromise(promise, timeout).then((value) => {
  * daily routine or work like ??
  *
  * **** */
+
+
+ /****
+  * Why do you use react ??
+  * Redux Middlewares - write your own ??
+  * FlexBox, Make a Donut
+  * How rendering works ??
+  * Actions / Reducer
+  * Improve the performance of frontend app.
+  * Secondary Index / Primary Index ??
+  * B+ tree working ??
+  * NodeJS - Event Loop - working ??
+  * div -> div - arrange inner most div to be in aligned vertically and horizontally center
+  * Memoized module - which takes a function
+  */
+
+  // https://leetcode.com/discuss/interview-question/313216/
+
+  /****
+   * Grofers Glassdoor -
+   * Primary Index/ Secondary Index etc.
+   * Write code to get all possible permutations of a given string in lexicographical order
+   * Binary Search Tree
+   * Binary Tree
+   * B+ Tree
+   * Insert a node in sorted circular linked list
+   */
+
+
+   /**** Questions to ask any Head - CEO / CTO etc.
+    * There are many products - for collections, disbursals. What are the other products in pipeline ?
+    * What is next for Cashfree ?
+    * How is the culture at Cashfree ?
+    * What will be my learning trajectory ?? ( Not sure about this )
+    */
