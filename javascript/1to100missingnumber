@@ -1,0 +1,25 @@
+//You can do this in O(n). Iterate through the array and compute the sum of all numbers. Now, sum of natural numbers from 1 to N, can be expressed as Nx(N+1)/2. In your case N=100.
+
+//Subtract the sum of the array from Nx(N+1)/2, where N=100.
+
+//That is the missing number. The empty slot can be detected during the iteration in which the sum is computed.
+
+// will be the sum of the numbers in the array.
+int sum = 0;
+int idx = -1;
+for (int i = 0; i < arr.length; i++)
+{
+    if (arr[i] == 0)
+    {
+         idx = i; 
+    }
+    else 
+    {
+         sum += arr[i];
+    }
+}
+
+// the total sum of numbers between 1 and arr.length.
+int total = (arr.length + 1) * arr.length / 2;
+
+System.out.println("missing number is: " + (total - sum) + " at index " + idx);
