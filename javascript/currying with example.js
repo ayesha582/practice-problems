@@ -47,3 +47,11 @@ console.log(obj.getSum());
 console.log(obj.curry(8)(9)(10));
 
 console.log(obj.getSum());
+
+function x(a) {
+  x.__proto__.sum = x.__proto__.sum ? x.__proto__.sum + a : (a ? a :0)
+  return x
+}
+
+
+console.log(x(2)(3)(4).sum)
